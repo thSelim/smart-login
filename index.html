@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signIn</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="bg-dark">
+
+<div class="container text-center mt-5 w-50  
+shadow-lg p-3 rounded">
+
+  <div class=" text-info m-5">
+    <h1 class="">Smart Login System</h1>
+  </div>
+
+    <div class="form-floating text-secondary">
+      <input type="email" 
+      class="form-control mb-3 bg-dark text-light " 
+      id="floatingInputEmail" placeholder="Enter Your Email">
+      <label for="floatingInputEmail" class="">Email</label>
+    </div>
+
+    <div class="form-floating text-secondary">
+      <input type="password" 
+      class="form-control mb-3 bg-dark text-light " 
+      id="floatingInputPassword" placeholder="Enter Your Password">
+      <label for="floatingInputPassword" class="">Password</label>
+    </div>
+
+    <p id="required" class="text-danger d-none">All inputs are required</p>
+    <p id="incorrect" class="text-danger d-none">Incorrect email or password</p>
+
+    <button type="button" id="loginBtn"
+    class="btn btn-outline-primary w-100">Login</button>
+
+    <div class="haveAccount text-light  m-3">
+      <p>You don't have an account?
+        <a href="signup.html" 
+        class="link-light link-offset-2 link-underline-opacity-25 
+        link-underline-opacity-100-hover">Signup</a>
+      </p>
+    </div>
+</div>
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
